@@ -1,0 +1,31 @@
+{
+  "name": "@dwipuspit/etherscan-cli",
+  "version": "1.0.0",
+  "description": "ethereum scanner CLI",
+  "main": "index.js",
+  "scripts": {
+    "etherscan": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dwipuspit/etherscan-cli.git"
+  },
+  "keywords": [
+    "ethereum",
+    "scanner",
+    "CLI",
+    "tea",
+    "project",
+    "oss"
+  ],
+  "author": "dwipuspit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwipuspit/etherscan-cli/issues"
+  },
+  "homepage": "https://github.com/dwipuspit/etherscan-cli#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
