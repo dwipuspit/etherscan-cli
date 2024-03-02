@@ -9,7 +9,7 @@ readline.question("Input Address: ", address => {
     checkBalance(address);
     readline.close();
 })
-async function checkBalance(address) {
+export async function checkBalance(address) {
     try {
         const res = await fetch("https://api.etherscan.io/api?module=account&action=balance&address=" + address + "&tag=latest&apikey=" + TOKEN);
         if (!res.ok) throw Error("getting error")
