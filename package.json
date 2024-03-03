@@ -1,6 +1,6 @@
 {
   "name": "@dwipuspit/etherscan-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ethereum scanner CLI",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/dwipuspit/etherscan-cli#readme",
   "dependencies": {
+    "axios": "^1.6.7",
     "dotenv": "^16.4.5",
     "nodemon": "^3.1.0"
   }
